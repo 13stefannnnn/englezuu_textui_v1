@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.textui-container {
+    position: absolute;
+    animation: fadeIn 2s;
+    top: 80%;
+    right: 52%;
+}
+
+.textui-container .key-class {
+    background-color: rgba(240, 248, 255, 0.384);
+    width: 4vh;
+    box-shadow: rgba(0, 0, 0, 0.77) 0px 0px 10px, rgba(248, 248, 248, 0.788) 0px 0px 20px;
+    height: 3.5vh;
+    border-radius: 200%;
+}
+
+.textui-container .key-class h4 {
+    font-family: Poppins;
+    color:white;
+    font-size: 24px;
+    padding-left: 15px;
+}
+
+.textui-container .key-class .key-stroke {
+    width: 4.75vh;
+    height: 4.1vh;
+    background-color: rgba(240, 248, 255, 0);
+    border: 5px solid rgba(240, 248, 255, 0.459);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.77) 0px 0px 10px, rgba(248, 248, 248, 0.788) 0px 0px 20px;
+    top: 34%;
+    right: -21%;
+}
+
+.separator {
+    position: absolute;
+    top: 83%;
+    right: 50%;
+    animation: fadeIn 2s;
+    background-color: rgba(240, 248, 255, 0.384);
+    width: 0.3vh;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.77) 0px 0px 10px, rgba(248, 248, 248, 0.788) 0px 0px 20px;
+    height: 3vh;
+}
+
+.text-class h4{
+    font-family: Poppins;
+    color:white;
+    text-transform: uppercase;
+    animation: fadeIn 2s;
+    text-shadow: rgba(0, 0, 0, 0.77) 0px 0px 10px, rgba(248, 248, 248, 0.788) 0px 0px 20px;
+    font-size: 18px;
+    margin-top: 47.2%;
+    margin-left: 51%;
+}
