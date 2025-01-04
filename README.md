@@ -30,9 +30,9 @@ Tehnical informations:
 # HOW TO USE/ CUM SA FOLOSESTI
 
 Client: Events or Exports 
-1) TriggerEvent("TextUI:open, "yourText") or exports.englezuu_textui:Open("yourText")
-2) TriggerEvent("TextUI:close) or exports.englezuu_textui:Close()
+- TriggerEvent("TextUI:open, "yourText") or exports.englezuu_textui:Open("yourText")
+- TriggerEvent("TextUI:close) or exports.englezuu_textui:Close()
 
 Server: Events
-1) TriggerClientEvent("TextUI:open, src/-1, "yourText") or exports.englezuu_textui:Open("yourText")
-2) TriggerClientEvent("TextUI:close, src/-1) or exports.englezuu_textui:Close()
+- TriggerClientEvent("TextUI:open, src/-1, "yourText") or exports.englezuu_textui:Open("yourText")
+- TriggerClientEvent("TextUI:close, src/-1) or exports.englezuu_textui:Close()
