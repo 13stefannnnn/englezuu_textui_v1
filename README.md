@@ -34,5 +34,5 @@ Client: Events or Exports
 - TriggerEvent("TextUI:close) or exports.englezuu_textui:Close()
 
 Server: Events
-- TriggerClientEvent("TextUI:open, src/-1, "yourText") or exports.englezuu_textui:Open("yourText")
-- TriggerClientEvent("TextUI:close, src/-1) or exports.englezuu_textui:Close()
+- TriggerClientEvent("TextUI:open, src/-1, "yourText")
+- TriggerClientEvent("TextUI:close, src/-1)
