@@ -1,7 +1,7 @@
-# Englezuu TextUI V1 
+# TextUI V1 
 # [RO] 
 
-Englezuu TextUI este un script standalone pentru FiveM care afiseaza un prompt inainte de a face o actiune, spre exemplu: E: Deschide Garajul
+TextUI v1 este un script standalone pentru FiveM care afiseaza un prompt inainte de a face o actiune, spre exemplu: E: Deschide Garajul
 
 Informatii tehnice: 
 
@@ -15,7 +15,7 @@ Informatii tehnice:
 
 # [EN] 
 
-Englezuu TextUI is a standalone script for FiveM. This script show you a prompt before make action, for exemple: E: Open Garage
+TextUI v1 is a standalone script for FiveM. This script show you a prompt before make action, for exemple: E: Open Garage
 
 Tehnical informations: 
 
@@ -27,12 +27,12 @@ Tehnical informations:
 2) Open server.cfg 
 3) Add code line "ensure englezuu_textui" (WARNING: If you renamed the resource folder's name, input the new name!)
 
-# HOW TO USE/ CUM SA FOLOSESTI
+# HOW TO USE / CUM SA FOLOSESTI
 
 Client: Events or Exports 
 - TriggerEvent("TextUI:open, "yourText") or exports.englezuu_textui:Open("yourText")
 - TriggerEvent("TextUI:close) or exports.englezuu_textui:Close()
 
 Server: Events
-- TriggerClientEvent("TextUI:open, src/-1, "yourText")
-- TriggerClientEvent("TextUI:close, src/-1)
+- TriggerClientEvent("TextUI:open, source, "yourText")
+- TriggerClientEvent("TextUI:close, source)
